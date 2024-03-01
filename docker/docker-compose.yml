@@ -1,0 +1,10 @@
+version: '3'
+services:
+  node-red:
+    build: .
+    ports:
+      - 1880:1880 # for Node Red Server
+      - 1881:1881 # for Node Red TCP Server
+    volumes:
+      - ./data:/data
+    restart: always
