@@ -5,7 +5,7 @@ Node REDのサンプルプロジェクトです。（ラズパイZero WHにて�
 dockerを使用したNode REDです。<br>
 https://nodered.jp/docs/getting-started/docker
 
-- dockerをインストールします。(以下の，便利なスクリプトを使用してインストールする)<br>
+- dockerをインストールします。<br>
 https://docs.docker.com/engine/install/raspberry-pi-os/
 - リポジトリをクローンします。<br>
 ```sh
@@ -19,9 +19,6 @@ $ mkdir data
 $ sudo systemctl enable docker
 $ sudo docker compose -f "docker-compose.yml" up -d
 ```
-> [!NOTE]
-> `ERROR [node-red 2/2] RUN npm install node-red-dashboard` のエラーが出る場合は，<br>
-> [Dockerfile](docker/Dockerfile) の3行目を削除して，後ほど手動インストールしてください。<br>
 - サーバーのIPを確認します。
 ```sh
 $ ifconfig | grep inet | cut -d: -f2 | awk '{ print $2}' | grep -vE "^(127\..*|172\..*|\s*)$"
