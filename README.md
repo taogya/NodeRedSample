@@ -2,9 +2,11 @@
 Node REDのサンプルプロジェクトです。（ラズパイZero WHにて実験）
 
 ## 環境構築
-- dockerをインストールします。<br>
-https://docs.docker.com/engine/install/raspberry-pi-os/
+dockerを使用したNode REDです。<br>
 https://nodered.jp/docs/getting-started/docker
+
+- dockerをインストールします。(以下の，便利なスクリプトを使用してインストールする)<br>
+https://docs.docker.com/engine/install/raspberry-pi-os/
 - リポジトリをクローンします。<br>
 ```sh
 $ git clone https://github.com/taogya/NodeRedSample.git
