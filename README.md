@@ -3,6 +3,7 @@ Node REDのサンプルプロジェクトです。（ラズパイZero WHにて�
 
 ## 環境構築
 - dockerをインストールします。<br>
+https://docs.docker.com/engine/install/raspberry-pi-os/
 https://nodered.jp/docs/getting-started/docker
 - リポジトリをクローンします。<br>
 ```sh
