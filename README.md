@@ -14,6 +14,7 @@ $ cd NodeRedSample/
 ```
 - Node REDを起動します。(node-red-dashboard が既に含まれています)<br>
 ```sh
+$ cd docker
 $ mkdir data
 $ sudo systemctl enable docker
 $ sudo docker compose -f "docker-compose.yml" up -d
